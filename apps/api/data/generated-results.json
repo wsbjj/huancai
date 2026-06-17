@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "id": "a04e5802-1d90-4d3a-b767-13041a5a26f4",
+      "originalPhotoId": "full-outfit-1781676449476",
+      "originalImageUrl": "/uploads/originals/1781676449500-c15-full-outfit-1781676449476-main-2f7a4f07.png",
+      "prompt": "帮我把这些服装穿到这个模特身上，保证模特的脸型、细节、姿势等不做任何改变。\n需要换上：上装。\n保证第一张图片的模特脸部、表情、姿势、眼神等所有细节不做变动，4K，专业拍摄，大片质感。",
+      "categoryId": "c15",
+      "modelId": "",
+      "styleId": "",
+      "status": "completed",
+      "userId": "demo-user",
+      "createdAt": "2026-06-17T06:07:29.525Z",
+      "updatedAt": "2026-06-17T06:09:13.494Z",
+      "generatedImageUrl": "/uploads/processed/1781676553492-gemini-inline-data-cc34876f.png"
+    },
+    {
+      "id": "7a1ae0b0-d984-4be1-9dd7-dd8d390cffbf",
+      "originalPhotoId": "buyer-show-1781676339904-0",
+      "originalImageUrl": "/uploads/originals/1781676339934-c11-buyer-show-1781676339904-0-main-0199e795.png",
+      "prompt": "帮我把这件衣服穿到这个模特身上，不要改变衣服的细节和面料，不要改变模特的脸，我是作为买家秀在天猫和发小红书笔记，请给我一张好看的买家秀照片。",
+      "categoryId": "c11",
+      "modelId": "",
+      "styleId": "",
+      "status": "completed",
+      "userId": "demo-user",
+      "createdAt": "2026-06-17T06:05:39.957Z",
+      "updatedAt": "2026-06-17T06:06:39.993Z",
+      "generatedImageUrl": "/uploads/processed/1781676399990-gemini-inline-data-5b7476e8.png"
+    },
+    {
+      "id": "4affb0c2-2969-49ae-b483-adef378bee70",
+      "originalPhotoId": "full-outfit-1781675255861",
+      "originalImageUrl": "/uploads/originals/1781675255945-c15-full-outfit-1781675255861-main-61d962c3.png",
+      "prompt": "帮我把这些服装穿到这个模特身上，保证模特的脸型、细节、姿势等不做任何改变。\n需要换上：上装。\n保证第一张图片的模特脸部、表情、姿势、眼神等所有细节不做变动，4K，专业拍摄，大片质感。",
+      "categoryId": "c15",
+      "modelId": "",
+      "styleId": "",
+      "status": "failed",
+      "userId": "demo-user",
+      "createdAt": "2026-06-17T05:47:36.118Z",
+      "updatedAt": "2026-06-17T05:49:36.240Z"
+    },
+    {
+      "id": "57d1285a-0e82-4e88-afe0-14e32a91d3eb",
+      "originalPhotoId": "full-outfit-1781674545257",
+      "originalImageUrl": "/uploads/originals/1781674545335-c15-full-outfit-1781674545257-main-638fd71c.png",
+      "prompt": "帮我把这些服装穿到这个模特身上，保证模特的脸型、细节、姿势等不做任何改变。\n需要换上：上装。\n保证第一张图片的模特脸部、表情、姿势、眼神等所有细节不做变动，4K，专业拍摄，大片质感。",
+      "categoryId": "c15",
+      "modelId": "",
+      "styleId": "",
+      "status": "failed",
+      "userId": "demo-user",
+      "createdAt": "2026-06-17T05:35:45.367Z",
+      "updatedAt": "2026-06-17T05:37:45.423Z"
+    }
+  ]
+}

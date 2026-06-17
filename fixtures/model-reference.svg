@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#f6efe6"/>
+  <circle cx="360" cy="230" r="92" fill="#ffd7b5"/>
+  <rect x="250" y="320" width="220" height="310" rx="110" fill="#7c9cff"/>
+  <rect x="220" y="360" width="60" height="250" rx="30" fill="#ffd7b5"/>
+  <rect x="440" y="360" width="60" height="250" rx="30" fill="#ffd7b5"/>
+  <rect x="285" y="630" width="58" height="210" rx="28" fill="#2a3558"/>
+  <rect x="377" y="630" width="58" height="210" rx="28" fill="#2a3558"/>
+  <text x="50%" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#2a3558">
+    MODEL
+  </text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@huancai/shared": ["../../packages/shared/dist/index.js"]
+    }
+  }
+}

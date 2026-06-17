@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "paths": {
+      "@huancai/shared": ["../../packages/shared/dist/index.d.ts"]
+    },
+    "noEmit": false
+  },
+  "include": ["src/**/*.ts"]
+}

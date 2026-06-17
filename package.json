@@ -1,0 +1,23 @@
+{
+  "name": "huancai-fashion-platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build:shared": "npm --workspace @huancai/shared run build",
+    "build:api": "npm run build:shared && npm --workspace @huancai/api run build",
+    "build:web": "npm run build:shared && npm --workspace @huancai/web run build",
+    "build": "npm run build:api && npm run build:web",
+    "dev": "npm run build:shared && concurrently -k -n api,web -c blue,green \"npm --workspace @huancai/api run dev\" \"npm --workspace @huancai/web run dev\"",
+    "typecheck": "npm run build:shared && npm --workspace @huancai/api run typecheck && npm --workspace @huancai/web run typecheck",
+    "dev:api": "npm run build:shared && npm --workspace @huancai/api run dev",
+    "dev:web": "npm run build:shared && npm --workspace @huancai/web run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+}

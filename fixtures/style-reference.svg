@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#fdf2f8"/>
+  <path d="M210 200 C290 110 430 110 510 200 L560 390 C505 450 457 480 360 505 C263 480 215 450 160 390 Z" fill="#ec4899"/>
+  <path d="M280 270 C305 300 415 300 440 270" fill="none" stroke="#fbcfe8" stroke-width="20" stroke-linecap="round"/>
+  <rect x="250" y="520" width="220" height="230" rx="40" fill="#9f1239" opacity="0.22"/>
+  <text x="50%" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#9f1239">
+    STYLE REF
+  </text>
+</svg>
